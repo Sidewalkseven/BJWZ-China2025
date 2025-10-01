@@ -1,9 +1,9 @@
 # Design
 
 To achieve our goals, we designed three plasmids.
-
+![prmA promoter plasmid](/assets/image/project/theory_graph2.png)
 The first plasmid utilizes the prmA promoter, whose expression is regulated by Per- and polyfluoroalkyl substances (PFAS). When the environmental PFAS concentration is high, the prmA promoter is activated, initiating the expression of the dhaA gene encoding a PFAS-degrading enzyme. Simultaneously, it initiates the expression of the gene for Green Fluorescent Protein (GFP), causing the engineered bacteria to emit green fluorescence under excitation light. When PFAS is absent in the environment, the downstream genes are not expressed.
 
 The second plasmid involves a fluoride ion-activated fluoride ion transporter protein. The mRNA transcribed from this gene forms a stem-loop structure that blocks the translation process. When fluoride ions are present in the environment, they bind to this structure, activating the translation of the crcB fluoride ion transporter protein, thereby reducing the intracellular fluoride ion concentration and ensuring normal bacterial survival. Concurrently, it initiates the expression of the gene for the mCherry protein, causing the engineered bacteria to emit red fluorescence under excitation light.
-
+![ccdB suicide plasmid](/assets/image/project/theory_graph1.png)
 The third plasmid is a ccdB suicide plasmid regulated by the arabinose operon. The expression of this plasmid can significantly enhance the safety of our engineered bacteria. In the absence of arabinose, the AraC protein, expressed by the araC gene, binds to the DNA and inhibits the expression of the ccdB gene. When the environmental arabinose concentration is low, the expression of the ccdB gene is repressed. When the environmental arabinose concentration increases, arabinose binds to the AraC protein, activating the PBAD promoter, thereby promoting the expression of the ccdB gene and achieving the effect of bacterial suicide.
